@@ -1,0 +1,133 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* BODY */
+body {
+    font-size: 15px;
+    font-family: 'Poppins', sans-serif;
+    overflow-x: hidden; /* Oculta a barra de rolagem horizontal */
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center; /* Alinha horizontalmente */
+    align-items: center; /* Alinha verticalmente */
+    height: 30px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li:hover {
+    cursor: pointer;
+}
+
+/* HEADER */
+/* LINHA AMARELA TAMANHOOOOOOOOOOOOOOOOOOO 29*/
+.linha_amarela {
+    color: #273b3aff;
+    background-color: #f7e0ad;
+    display: flex;
+    padding: 29px;
+    font-weight: 500;
+}
+
+.linha_amarela li {
+    padding: 44px;
+    transition: all 0.3s ease-in-out;
+}
+
+/* MENU VERDE */
+.menu {
+    /* position: fixed; Mantém a posição fixa na tela
+    top: 0; Alinha ao topo */
+    display: flex;
+    height: 110px;
+    width: 100%; /* Mantém a largura total */
+    background-color: #273b3aff;
+    color: #fff;
+    z-index: 999; /* Mantém o menu acima de outros elementos */
+}
+
+.menu li {
+    padding: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+.menu li:hover {
+    background-color: #D87C6A;
+    cursor: pointer;
+}
+
+/* STRING CASSAVA */
+.stringcassava {
+    position: fixed; /* Mantém a posição fixa na tela */
+    left: 500px; /* Afastado 20px do lado esquerdo */
+    top: 50px; /* Afastado 50px do topo */
+    z-index: 1000; /* Mantém a imagem acima de outros elementos */
+}
+
+.stringcassava img {
+    width: 50px; /* Ajusta a largura da imagem, se necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+
+
+/* IMAGEM DA MÃO */
+.natural{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    height: 510px;
+    background-image: url(image/natural_como_a_terra.png);
+    background-size: cover; /*Ajusta para cobrir todo o botão*/
+    background-position: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between; /* Distribui elementos no container */
+    width: 100vw; /* Largura do retângulo */
+    height: 800px; /* Altura do retângulo */
+    background-color: #F7DFAD; /* Cor de fundo */
+    
+}
+
+.div-pai {
+    width: 200px;
+    height: 100px;
+    background-color: lightblue;
+}
+
+.div-filho {
+    width: 200px;
+    height: 100px;
+    background-color: lightcoral;
+}
+
+.retangulo_video {
+    width: 100vw; /* Largura do retângulo */
+    height: 800px; /* Altura do retângulo */
+    background-color: #4CAF50; /* Cor de fundo */
+    
+}
+
+/* SUBTITLE */
+.sub-titulo {
+    color: #fd7e14;
+    font-weight: bold;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+/* NOTICIAS */
+.noticias {
+    display: flex;
+    flex-direction: row;
+}
